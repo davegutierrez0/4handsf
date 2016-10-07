@@ -1,8 +1,5 @@
 /*4hand styles.css*/
 
-html {
-}
-
 body{
 background:black;
 color:white;
@@ -10,7 +7,6 @@ font-family:tron;
 font-size: 0.66em;
 max-width:80%;
 text-align:center;
-max-width:640px;
 letter-spacing:0.3em;
 
 }
