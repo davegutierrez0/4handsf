@@ -1,0 +1,85 @@
+/*4hand styles.css*/
+
+html {
+}
+
+body{
+background:black;
+color:white;
+font-family:tron;
+font-size: 0.66em;
+max-width:80%;
+text-align:center;
+max-width:640px;
+letter-spacing:0.3em;
+
+}
+
+@font-face{
+  font-family: sportsNight;
+  src: url(./fonts/sfsportsnightalternate.ttf)
+}
+
+@font-face{
+  font-family: tron;
+  src: url(./fonts/tron.ttf)
+}
+@font-face{
+  font-family: sportsNightUprightNS;
+  src: url(./fonts/SFSportsNightNSUpright.ttf)
+}
+
+@font-face{
+  font-family: sportsNightUpright;
+  src: url(./fonts/sfsportsnightupright.ttf)
+}
+
+h1{
+  font-family:sportsNight;
+  text-shadow:1px 2px rgba(43,129,238,0.4);
+  font-size:3.0em;
+}
+
+h2{
+  font-family:sportsNightUprightNS;
+  font-size:1.25em;
+}
+
+ul {
+  margin-left:auto;
+  margin-right:auto;
+}
+li{
+  display:inline-block;
+  margin: 0.75em;
+  font-size:0.33em;
+  margin-bottom:2em;
+}
+
+p{
+  font-size:1em;
+  font-family:sportsNightUprightNS;
+  max-width:75%;
+  margin-left:auto;
+  margin-right:auto;
+  font-spacing:0.15em;
+}
+footer{
+  margin-top:3em;
+  border-top:10px gray;
+  font-size:0.5em;
+}
+
+label, textarea, button {
+  font-family:sportsNightUprightNS;
+  font-size:0.66em;
+}
+
+a{
+  color:inherit;
+  text-decoration:unset;
+}
+
+img{
+  height:200px;
+}
