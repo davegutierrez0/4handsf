@@ -39,7 +39,7 @@ max-width:99%;
   src: url(./fonts/sfsportsnightupright.ttf)
 }
 
-h1{
+h1:first{
   font-family:sportsNight !important;
   text-shadow:5px 10px #0ce3ac;
   font-size:3.0em;
@@ -50,8 +50,8 @@ h2{
   /*font-family:sportsNightUprightNS;*/
   font-size:1.25em;
   max-width:37em;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:auto !important;
+  margin-right:auto !important;
 }
 
 ul {
