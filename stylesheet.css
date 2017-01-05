@@ -50,8 +50,12 @@ h2{
   /*font-family:sportsNightUprightNS;*/
   font-size:1.25em;
   max-width:37em;
-  margin-left:auto !important;
-  margin-right:auto !important;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#forBros{
+  margin:0px;
 }
 
 ul {
