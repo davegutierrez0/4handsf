@@ -17,7 +17,7 @@ body{
 font-size: 1.33em;
 text-align:center;
 letter-spacing:0.3em;
-
+max-width:100%;
 }
 
 @font-face{
