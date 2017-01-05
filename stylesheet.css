@@ -40,7 +40,7 @@ max-width:99%;
 }
 
 h1{
-  font-family:sportsNight;
+  font-family:sportsNight !important;
   text-shadow:5px 10px #0ce3ac;
   font-size:3.0em;
   /*color:#0ce3ac;*/
@@ -75,8 +75,8 @@ p{
 
 input{
   max-width:10em;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:auto !important;
+  margin-right:auto !important;
 }
 footer{
   margin-top:5em;
@@ -104,8 +104,13 @@ img{
 
 .mc-fields-custom{
   padding-top:1.5em;
+  text-align:center !important;
 }
 
 .mc-fields-custom:last{
   padding-top:0.5em;
+}
+
+div{
+  text-align:center;
 }
